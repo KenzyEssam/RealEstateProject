@@ -1,0 +1,144 @@
+.view-categories {
+    padding: 20px;
+  }
+  
+  .view-categories h2 {
+    color: #033f7f;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    max-width: 550px; /* Adjust as needed */
+    margin: 0 auto; /* Center the search bar */
+    background-color: rgba(0, 0, 0, 0.4); /* Background color for the search bar */
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 35px;
+  }
+  
+  .search-bar select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+  }
+  
+  .search-bar .search-icon {
+    margin-left: 10px;
+    color: #1b7ee9;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .categories-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .categories-table th,
+  .categories-table td {
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+    font-size: 18px;
+    border: none;
+  }
+  
+  .categories-table th {
+    background-color: #033f7f;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  .categories-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.875);
+  }
+  
+  .categories-table tr:nth-child(odd) {
+    background-color: rgba(255, 251, 251, 0.749);
+  }
+  
+  .categories-table tr {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .categories-table tr:hover {
+    background-color: rgba(3, 36, 127, 0.459);
+    color: #ffffff;
+    transform: scale(1.02); /* Slightly enlarge the row */
+  }
+  
+  .spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* Add your spinner styling here */
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .categories-table th, .categories-table td {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .view-categories h2 {
+      font-size: 32px;
+    }
+  
+    .search-bar input {
+      max-width: 200px;
+    }
+  }
+  
+  
+  .view-categories .coding-page-bttn {
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px ;
+  }
+  
+  .view-categories .coding-page-bttn button {
+    padding: 7px 20px;
+    background-color: #033f7f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+    width: 120x;
+    box-shadow: 1px 3px 7px rgb(0 0 0 / 39%)
+  }
+  
+  .view-categories .coding-page-bttn button:hover{
+    background-color: #032f5f;
+  }

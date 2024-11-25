@@ -1,0 +1,73 @@
+.sidebar {
+    height: 200vh;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+/*      background-color: rgba(0, 0, 0, 0.4);
+ */    padding-top: 20px;
+ background-color: #03305fdc;
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5); /* Box shadow added */
+    border-radius:  10px;
+  }
+  
+/*   .sidebar-header {
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-bottom: -20px;
+    margin-top: -10px;
+  }
+   */
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  .sidebar-menu li {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    font-size: 18px;
+    
+  }
+  
+  .sidebar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 0px;
+    display: block;
+/*     background-color: #033f7f;
+ */    margin-bottom: 20px;
+    border-radius: 4px;
+    margin: 10px 40px;
+    text-align: left;
+  }
+  
+  .sidebar-menu li :hover {
+    background-color: #032f5f;
+    padding: 5px;
+
+  }
+  
+
+  .sidebar-menu li a:hover {
+    background-color: #032f5f;
+  }
+  .sidebar-menu li a svg {
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+  
+  .active-link {
+    background-color: #032f5f;
+  
+  }

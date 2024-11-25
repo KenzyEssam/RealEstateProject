@@ -1,0 +1,84 @@
+.navbar {
+/*     background-color: rgba(0, 0, 0, 0.4);
+ */    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #03305fdc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Box shadow added */
+    border-radius:  10px;
+  }
+  
+  .navbar .sidebar-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-header h2 {
+    color: #fff;
+    font-size: 35px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-icon {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navbar-icon:hover {
+    color: #1e90ff; /* Change color on hover */
+    transform: scale(1.2); /* Slightly enlarge icon on hover */
+  }
+  
+  /* Add animations for individual icons */
+  .navbar-icon:nth-child(1):hover {
+    animation: bounce 0.6s;
+  }
+  
+  .navbar-icon:nth-child(2):hover {
+    animation: shake 0.6s;
+  }
+  
+  .navbar-icon:nth-child(3):hover {
+    animation: rotate 0.6s;
+  }
+  
+  /* Keyframes for animations */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    75% {
+      transform: translateX(5px);
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

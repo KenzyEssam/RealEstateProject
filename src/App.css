@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+/*     background-color: #f0f0f0;
+ */    margin: 0;
+    padding: 0;
+/*      background: url('amazing-aerial-shot-singapore-cityscape-with-lots-skyscrapers.jpg') no-repeat center center fixed;
+ */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: overlay;
+/*         background-color: rgba(0, 0, 0, 0.8);
+ */
+  }
+  
+
+  .App {
+    text-align: center;
+  }
+  
+  
+ /*  form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  form input, form select, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #218838;
+  } */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+/*   .fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+   */
+
+   .App {
+    display: flex;
+  }
+  
+  .main-content {
+    margin-left: 250px; /* Same as sidebar width */
+    width: calc(100% - 250px);
+    min-height: 100vh;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  

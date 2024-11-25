@@ -1,0 +1,133 @@
+.booking-permission {
+    padding: 20px;
+  }
+  
+  .booking-permission h2 {
+    color: #dcd1d1;
+    font-size: 40px;
+    margin: 15px 0;
+  }
+  
+  .booking-permission form {
+    max-width: 1000px; /* Increase width to allow for more space */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap; /* Allow inputs to wrap onto new lines */
+  }
+  
+  .booking-permission .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    margin: 10px;
+    flex: 1 1 34%; /* Make each form group take up around 48% of the container width */
+    margin-right: 25px;
+
+  }
+  .booking-permission form label {
+    font-size: 21px;
+    display: flex;
+    align-items: right; /* Align items center for better vertical alignment */
+    margin-bottom: 8px;
+    font-weight: bold;
+    justify-content: right;
+    text-align: right; /* Align text to the left */
+    color: #fff;
+    color: black;
+    color: rgb(78, 77, 77);
+  }
+
+  .booking-permission .form-group-validityPeriod {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    margin: 10px;
+    width: 100px;
+    flex: 1 1 48%; /* Make each form group take up around 48% of the container width */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .booking-permission .validity-period-label{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .booking-permission form input,
+  .booking-permission form select,
+  .booking-permission form textarea {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 16px;
+  }
+
+  .booking-permission form input[name='validityPeriod']{
+    height: 16px;
+    width: 55%;
+  }
+  .booking-permission form select{
+    height: 34px;
+    width: 100%;
+  }
+  .booking-permission .submit-bttn {
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;}
+  
+  .booking-permission form button {
+    padding: 7px 20px;
+    background-color: #033f7f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+    width: 100px;
+  }
+  
+  .booking-permission form button:hover {
+    background-color: #032f5f;
+  }
+  
+  .booking-permission .icon-color {
+    padding-left: 8px;
+    color: rgb(78, 77, 77);
+  }
+  
+  .booking-permission .button-group button {
+    background-color: #033f7f;
+    margin: 0 15px;
+    padding: 8px 16px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .booking-permission .button-group button:hover {
+    background-color: #032f5f;
+  }
+  .booking-permission .button-group {
+    display: block;
+    width: 100%;
+  
+  }
+  .booking-permission .unit-status{
+  
+  }

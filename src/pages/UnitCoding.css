@@ -1,0 +1,136 @@
+.unit-coding {
+  padding: 20px;
+}
+
+.unit-coding h2 {
+  color: #dcd1d1;
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+.unit-coding form {
+  max-width: 1000px; /* Increase width to allow for more space */
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap; /* Allow inputs to wrap onto new lines */
+}
+
+.unit-coding .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  margin: 10px;
+  flex: 1 1 34%; /* Make each form group take up around 48% of the container width */
+  margin-right: 25px;
+
+}
+.unit-coding form label {
+  font-size: 21px;
+  display: flex;
+  align-items: right; /* Align items center for better vertical alignment */
+  margin-bottom: 8px;
+  font-weight: bold;
+  justify-content: right;
+  text-align: right; /* Align text to the left */
+  color: #fff;
+  color: black;
+  color: rgb(78, 77, 77);
+
+}
+
+.unit-coding form input,
+.unit-coding form select,
+.unit-coding form textarea {
+  width: calc(100% - 20px); /* Adjust width to account for padding */
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 16px;
+}
+.unit-coding form select{
+  height: 34px;
+  width: 100%;
+}
+.unit-coding .submit-bttn {
+  display: block;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;}
+
+.unit-coding form button {
+  padding: 7px 20px;
+  background-color: #033f7f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  display: block;
+  width: 100px;
+}
+
+.unit-coding form button:hover {
+  background-color: #032f5f;
+}
+
+
+.unit-coding .icon-color {
+  padding-left: 8px;
+color: rgb(78, 77, 77);
+}
+
+.unit-coding .button-group button {
+  background-color: #033f7f;
+  margin: 0 15px;
+  padding: 8px 16px;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 1px 3px 7px rgb(0 0 0 / 39%)}
+
+.unit-coding .button-group button:hover {
+  background-color: #032f5f;
+}
+.unit-coding .button-group {
+  display: block;
+  width: 100%;
+
+}
+.unit-coding .unit-status{
+
+}
+
+.unit-coding .form-group-status {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  margin: 10px;
+  width: 100px;
+  flex: 1 1 48%; /* Make each form group take up around 48% of the container width */
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.status-label{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.unit-coding form select{
+  height: 34px;
+  width: 55%;
+}
